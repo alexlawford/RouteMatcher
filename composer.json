@@ -1,0 +1,20 @@
+{
+	"name": "alexlawford/RouteMatcher",
+	"description": "match a pretty route to a URI string",
+	"licence": "MIT",
+	"authors": [
+		{
+			"name": "Alex Lawford",
+			"email": "alexlawford@icloud.com"
+		}
+	],
+	"require": {},
+	"require-dev": {
+		"nette/tester" : "1.7.*"
+	},
+    "autoload": {
+        "psr-4": {
+            "AlexLawford\\RouteMatcher\\": "src"
+        }
+    }
+}
