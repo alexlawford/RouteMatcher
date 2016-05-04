@@ -2,7 +2,7 @@
 
 class Match
 {
-    // Matches a pretty route, e.g users/string:name to a uri string
+    // Matches a pretty route (e.g users/string:name) to a uri string
     // returning an array of the matches. Array will be empty [] if
     // no matches are found
     public static function route(String $uri, String $route) : Array
